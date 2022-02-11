@@ -1,0 +1,12 @@
+* {
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bb0800;
+}
+
+.fondotarjeta {
+    background-color: #580b03;
+}

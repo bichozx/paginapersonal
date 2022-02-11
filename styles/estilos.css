@@ -1,0 +1,28 @@
+* {
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.carusel {
+    background-attachment: fixed;
+    background-color: #2C3333;
+}
+
+.batlogo {
+    width: 3vw;
+    height: 3vw;
+}
+
+nav.navbar {
+    background-color: #2C3333;
+}
+
+.encabezado {
+    font-family: 'Cinzel', serif;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+.fondotar {
+    background-color: #2C3333 !important;
+}
