@@ -3,9 +3,12 @@
     box-sizing: border-box;
 }
 
+.fondotar {
+    background-color: #2C3333 !important;
+}
+
 .carusel {
-    background-attachment: fixed;
-    background-color: #2C3333;
+    height: 800px;
 }
 
 .batlogo {
@@ -13,16 +16,8 @@
     height: 3vw;
 }
 
-nav.navbar {
-    background-color: #2C3333;
-}
-
 .encabezado {
     font-family: 'Cinzel', serif;
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
-}
-
-.fondotar {
-    background-color: #2C3333 !important;
 }
