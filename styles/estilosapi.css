@@ -10,3 +10,8 @@ body {
 .fondotarjeta {
     background-color: #580b03;
 }
+.encabezado {
+    font-family: 'Cinzel', serif;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
