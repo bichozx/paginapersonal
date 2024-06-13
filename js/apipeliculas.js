@@ -1,12 +1,11 @@
 const uri = "https://api.themoviedb.org/3/movie/popular?api_key=35700dacc9850e3acda5a9ea994d4d5e&language=es-MX";
-const uri2="https://api.themoviedb.org/3/movie/157336?api_key=35700dacc9850e3acda5a9ea994d4d5e&append_to_response=videos"
 
 fetch(uri)
     .then(function(respuesta) {
         return respuesta.json();
     })
     .then(function(respuesta) {
-        console.log(respuesta);
+        
         pintarDatos(respuesta);
     })
     .catch(function(error) {
@@ -14,24 +13,12 @@ fetch(uri)
     });
 
 
-    fetch(uri2)
-    .then(function(respuesta) {
-        return respuesta.json();
-    })
-    .then(function(respuesta) {
-        console.log('soy nueva',respuesta);
-        
-    })
-    .catch(function(error) {
-        console.log(error);
-    });
-
 function pintarDatos(datos) {
     const peliculas = document.getElementById("peliculas");
 
     datos.results.forEach(movie => {
-        console.log(movie.title);
-        console.log(movie.poster_path);
+        // console.log(movie.title);
+        // console.log(movie.poster_path);
 
         // Crear un div para la columna
         const columna = document.createElement("div");
